@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giftos</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }   
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+            background: white;
+            border-bottom: 1px solid #ddd;
+            border-radius: 10px;
+        }
+ 
+        .navbar nav {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+ 
+        .navbar nav ul {
+            display: flex;
+            list-style: none;
+        }
+ 
+        .navbar nav ul li {
+            margin: 0 15px;
+        }
+ 
+        .navbar nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+        }
+ 
+        .auth-icons {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 10px;
+        }
+ 
+        .auth-icons img {
+            width: 20px;
+            height: 20px;
+        }
+ 
+        .auth-icons a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+        }
+        .latest-products {
+            padding: 40px 20px;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        .latest-products h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(80px, 2fr));
+            gap: 20px;
+        }
+        .product-item {
+                padding: 10px;
+                background-color: rgb(235, 233, 233);
+                border: 1px solid rgb(235, 233, 233);
+                box-shadow: 0px 4px 8px white;
+                text-align: center;
+                font-size: xx-small;
+                position: relative;
+                overflow: hidden;
+            }
+        .product-item pre {
+            position:absolute;
+            top:0;
+            left:0;
+            margin:0;
+            padding: 2px 5px;
+        }
+
+        
+        .promo-banner {
+            padding: 20px;
+            background-color: #7fd7eb;
+            text-align: center;
+        }
+
+        .promo-banner img {
+            max-width: 100%;
+            height: 200px;
+            border-radius: 10px;
+        }
+        .dot {
+            height: 20px;
+            width: 20px;
+            background-color: whitesmoke;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 7px;
+            font-family: "Times New Roman", Times, serif;
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            z-index: 10;
+        }
+        .abc button{
+            background-color: rgb(205, 100, 121);
+            padding:5px 10px;
+            border:none;
+            color:white;
+            border-radius:2px;
+            margin:5px;
+            font-size: 0.8em;
+            width:150px;
+            height:30px;
+
+        }
+        .dot {
+            height: 20px;
+            width: 20px;
+            background-color: whitesmoke;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 7px;
+            font-family: "Times New Roman", Times, serif;
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            z-index: 10;
+        }
+    </style>
+</head>
+    
+<body>
+   <h2 style="text-align: center;">GIFTOS</h2>
+   <header>
+       <div class="navbar">
+           <nav>
+               <ul>
+                   <li><a href="#">HOME</a></li>
+                   <li><a href="#">SHOP</a></li>
+                   <li><a href="#">WHY US</a></li>
+                   <li><a href="#">TESTIMONIAL</a></li>
+                   <li><a href="#">CONTACT US</a></li>
+               </ul>
+               <div class="auth-icons">
+                   <img src="login-removebg-preview.png" alt="Login Icon">
+                   <a href="login.html">Login</a>
+                   <img src="shop-removebg-preview.png" alt="Search Icon">
+                   <img src="search-removebg-preview.png" alt="Search Icon">
+               </div>
+           </nav>
+       </div>
+   </header>    
+   <section class="latest-products">
+    <h2>Latest Products</h2>
+
+        
+    </div>
+    <div class="product-grid">
+        <prev>                                                           </prev>
+        <prev>                                                           </prev>
+        <prev>                                                           </prev>
+        <prev>                                                           </prev>
+        
+        
+        
+        <div class="product-item">
+              <span class="dot"><pre></pre>New</span>             
+    <img src = "image1-removebg-preview.png" alt = "ring image"width="40" height="40"><br><br><span style="text-align:left;">Ring</span> <span style="margin-left:30px">Price</span> <span style="color:red ";>$200</span></div>
+        <div class="product-item"><span class="dot"><pre></pre>New</span><img src = "image2-removebg-preview.png" alt = "ring image"width="40" height="40"><br><br>Watch <span style="margin-left:30px">Price</span> <span style="color:red;"> $300</span></div>
+        <div class="product-item"><span class="dot"><pre></pre>New</span><img src = "image3-removebg-preview.png" alt = "ring image"width="40" height="40"><br><br>Teddy Bear <span style="margin-left:30px">Price</span><span style="color:red ;">$100</span></div>
+        <div class="product-item"><span class="dot"><pre></pre>New</span><img src = "image4-removebg-preview.png" alt = "ring image"width="40" height="40"><br><br>Flower Bouquet <span style="margin-left:30px">Price</span> <span style="color:red ;"> $45</span></div>
+        <prev>                                                   </prev>
+        <prev>                                                   </prev>
+        <prev>                                                   </prev>
+        <prev>                                                   </prev>
+        <prev>                                                   </prev>
+        <prev>                                                   </prev>
+        <prev>                                                   </prev>
+        <prev>                                                   </prev>
+        <div class="product-item"><span class="dot"><pre></pre>New</span><img src = "image5-removebg-preview.png" alt = "ring image"width="40" height="40"><br><br>Teddy Bear <span style="margin-left:30px">Price</span> <span style="color:red ;"> $100</span></div>
+        <div class="product-item"><span class="dot"><pre></pre>New</span><img src = "image6-removebg-preview.png" alt = "ring image"width="40" height="40"><br><br>Flower Bouquet <span style="margin-left:30px">Price</span> <span style="color:red ;"> $70</spanp></div>
+        <div class="product-item"><span class="dot"><pre></pre>New</span><img src = "image7-removebg-preview.png" alt = "ring image"width="40" height="40"><br><br>Watch <span style="margin-left:30px">Price</span> <span style="color:red ;"> $500</span></div>
+        <div class="product-item"><span class="dot"><pre></pre>New</span><img src = "image8-removebg-preview.png" alt = "ring image"width="40" height="40"><br><br>Ring <span style="margin-left:30px">Price</span> <span style="color:red ;"> $450</span></div>
+    </div>
+    <prev><br></prev>
+    <button style="background-color:#ce3f60;border: 5px solid #ce3f60; color:white"onclick="viewAllProducts()">View All Products</button>
+</section>
+
+    
+   
+
+ 
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giftos - Gift Shop</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header */
+        header {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 2em;
+            color: #333;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+            font-size: 1.2em;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        /* Welcome Banner */
+        .banner {
+            background-color: #ffb6c1;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        .banner h2 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .banner p {
+            font-size: 1.2em;
+            max-width: 600px;
+            margin: 0 auto 20px;
+        }
+
+        .banner button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        /* Products Section */
+        .products {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .products h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+        }
+
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .product-item {
+            background-color: #f4f4f4;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product-item h3 {
+            margin: 15px 0 5px;
+            font-size: 1.2em;
+        }
+
+        .product-item p {
+            color: #888;
+            font-size: 1em;
+        }
+
+        /* Footer Banner */
+        .footer-banner {
+            background-color: #87cefa;
+            padding: 100px 20px;
+            text-align: center;
+            color: white;
+            font-size: 2em;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .product-list {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>GIFTOS</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Why Us</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Welcome Banner -->
+    <div class="banner">
+        <h2>Welcome To Our Gift Shop</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis commodo ligula, nec fringilla erat sollicitudin id.</p>
+        <button>Contact Us</button>
+    </div>
+
+    <!-- Products Section -->
+    <div class="products">
+        <h2>Latest Products</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="ring.jpg" alt="Ring">
+                <h3>Ring</h3>
+                <p>Price: $500</p>
+            </div>
+            <div class="product-item">
+                <img src="watch.jpg" alt="Watch">
+                <h3>Watch</h3>
+                <p>Price: $300</p>
+            </div>
+            <div class="product-item">
+                <img src="teddy-bear.jpg" alt="Teddy Bear">
+                <h3>Teddy Bear</h3>
+                <p>Price: $150</p>
+            </div>
+            <div class="product-item">
+                <img src="flower-bouquet.jpg" alt="Flower Bouquet">
+                <h3>Flower Bouquet</h3>
+                <p>Price: $70</p>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+        <button style="margin-top: 20px; padding: 10px 20px; background-color: #ffb6c1; color: white; border: none; border-radius: 5px; cursor: pointer;">
+            View All Products
+        </button>
+    </div>
+
+    <!-- Footer Banner -->
+    <div class="footer-banner">
+        Great Gifts for Everyone!
+    </div>
+</body>
+</html>
